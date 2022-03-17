@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    top: 0%;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li button{
+    background: #adadad;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+section .goog{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .goog .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .goog .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid #adadad;
+
+}
+section .goog .searchbox .icons{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0%;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+    padding: 13px 18px;
+
+}
+section .goog .buttons{
+    margin-top: 20px;
+}
+section .goog .buttons button{
+    margin: 0px 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+section .goog .buttons button:hover{
+    border: 1px solid #ccc;
+}
+section .goog .lang{
+    margin-top: 20px;
+}
+section .footer{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background: #f2f2f2;
+    width: 100%;
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #adadad;
+}
+section .footer .row ul{
+    display: flex;
+}
+section .footer .row ul li{
+    list-style: none;
+    
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #5f6368;
+    font-size: 14px;
+}
